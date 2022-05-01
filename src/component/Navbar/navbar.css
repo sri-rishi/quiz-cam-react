@@ -1,0 +1,31 @@
+.nav-div {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    padding: 1rem;
+}
+
+.nav-link-box {
+    width: 10rem;
+}
+
+.user-icon {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 54em) {
+    .nav-items-box {
+        display: flex;
+    }
+
+    .nav-cta-box {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 34em) {
+    .nav-link-box {
+        justify-content: center;
+        width: 4rem;
+    }
+}
