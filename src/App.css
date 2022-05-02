@@ -1,2 +1,4 @@
 @import "https://nakshatra-ui.netlify.app/lib/components.css";
+@import "./style_guide/style_guid.css";
 @import "./component/index/index.css";
+@import "./pages/index/index.css";

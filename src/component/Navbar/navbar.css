@@ -2,7 +2,6 @@
     position: fixed;
     top: 0;
     z-index: 9999;
-    padding: 1rem;
 }
 
 .nav-link-box {
@@ -24,8 +23,7 @@
 }
 
 @media only screen and (max-width: 34em) {
-    .nav-link-box {
-        justify-content: center;
-        width: 4rem;
+    .nav-div {
+        justify-content: space-between;
     }
 }
