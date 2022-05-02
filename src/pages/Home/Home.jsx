@@ -7,7 +7,7 @@ export const Home = () => {
     return (
         <div>
             <Navbar />
-            <main class="main-div flex-column justify-center">
+            <main className="main-div flex-column justify-center">
             <HeroSection />
             <CategoriesSection />
             <PopularQuizzes />
