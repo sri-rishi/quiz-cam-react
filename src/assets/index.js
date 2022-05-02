@@ -8,7 +8,14 @@ import ipaTrophy from "./images/ipa-trophy.jpg";
 import journalismPhotography from "./images/journalism-photography.jpg";
 import photoCategoryCover from "./images/photo-category-cover.jpg";
 import wildlifeCover from "./images/wild-life-cover.jpeg";
-import { GiHamburgerMenu } from "./icons";
+import { 
+    GiHamburgerMenu , 
+    BsCodeSlash,
+    AiOutlineGithub,
+    AiFillLinkedin,
+    AiOutlineTwitter,
+    MdAlternateEmail
+} from "./icons";
 
 export {
     accCategoryCover,
@@ -21,5 +28,10 @@ export {
     journalismPhotography,
     photoCategoryCover,
     wildlifeCover,
-    GiHamburgerMenu
+    GiHamburgerMenu,
+    BsCodeSlash,
+    AiOutlineGithub,
+    AiFillLinkedin,
+    AiOutlineTwitter,
+    MdAlternateEmail
 }
