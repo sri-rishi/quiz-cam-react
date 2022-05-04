@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Button } from "../../../../component/index"
 import { popularQuizzesData } from "./popularQuizzesData"
 
@@ -24,9 +25,9 @@ export const PopularQuizzes = () => {
                                         <span className="text-badge badge-pills quiz-badge">Level {lavel}</span>
                                     </p>
                                 </div>
-                                <a href="#">
+                                <Link to="/rules">
                                     <Button className="btn btn-play-quiz" text="Play now"/>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     ))

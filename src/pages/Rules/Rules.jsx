@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Button, Navbar } from "../../component/index"
 
 export const RulesPage = () => {
@@ -17,9 +18,9 @@ export const RulesPage = () => {
                         <li>To win quiz you must score more than 65% </li>
                     </ul>
                     <div className="center-align mt-1">
-                        <a href="#">
+                        <Link to="/question">
                             <Button className="btn btn-play-quiz" text="Start Quiz"/>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </main>
