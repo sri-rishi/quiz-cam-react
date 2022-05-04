@@ -55,3 +55,11 @@
 .icon-vr-align {
     vertical-align: middle;
 }
+
+.btn-play-quiz {
+    background: var(--darker-yellow-color);
+}
+
+.btn-play-quiz:hover {
+    box-shadow: 0 1px 10px var(--darker-yellow-color);
+}

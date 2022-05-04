@@ -37,6 +37,7 @@ body {
     --gray-color: rgb(61, 58, 58);
     --darker-gray-color: rgb(27, 26, 26);
     --light-green-color: #208638;
+    --transparent-white-color: rgba(255, 255, 255, 0.511);
     --lightest-gray-color: rgba(224,224,224,0.5);
 }
 
