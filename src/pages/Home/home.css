@@ -84,14 +84,6 @@
     border-radius: 20px / 0;
 }
 
-.btn-play-quiz {
-    background: var(--darker-yellow-color);
-}
-
-.btn-play-quiz:hover {
-    box-shadow: 0 1px 10px var(--darker-yellow-color);
-}
-
 .quiz-badge {
     background-color: var(--primary-dark-color);
 }
