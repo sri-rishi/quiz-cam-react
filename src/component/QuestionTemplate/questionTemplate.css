@@ -1,0 +1,50 @@
+.ques-box {
+    margin: 8rem auto 4rem;
+    width: 35rem;
+    border-radius: 8px;
+    background: var(--transparent-white-color);
+    padding: 1rem 2rem;
+}
+
+.ques-top {
+    justify-content: space-between;
+}
+
+.ans {
+    font-size: 1.3rem;
+    border: 2px solid var(--gray-color); 
+    border-radius: 10px;
+    font-weight: inherit;
+    text-align: center;
+    color: var(--gray-color);
+    padding: 10px;
+}
+
+.right-ans {
+    background: var(--green-color);
+    border-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.wrong-ans {
+    background: var(--red-color);
+    border-color: var(--red-color);
+    color: var(--white-color);
+}
+
+.btn-cta-ques-box {
+    border: 2px solid var(--primary-dark-color);
+    color: var(--primary-dark-color);
+    background: transparent;
+}
+
+.btn-cta-ques-box:hover {
+    background: var(--primary-dark-color);
+    color: var(--white-color);
+}
+
+@media only screen and (max-width: 32em) {
+    .ques-box {
+        width: 25rem;
+    }
+}

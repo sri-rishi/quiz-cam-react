@@ -1,0 +1,28 @@
+.rule-main {
+    margin: 8rem auto 2rem;
+}
+
+.rule-box {
+    color: var(--gray-color);
+    background: var(--white-color);
+    padding: 1rem 2rem 2rem;
+    border-radius: 4px;
+}
+
+.rule-list {
+    list-style-type: disc;
+    padding-left: 2rem; 
+    font-size: 1.2rem;
+    gap: 10px;
+    color: var(--light-gray-color);
+}
+
+.center-align {
+    text-align: center;
+}
+
+@media only screen and (max-width: 34em) {
+    .rule-main {
+        padding: 1rem;
+    }
+}

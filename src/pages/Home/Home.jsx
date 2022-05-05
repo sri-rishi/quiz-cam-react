@@ -8,11 +8,11 @@ export const Home = () => {
         <div>
             <Navbar />
             <main className="main-div flex-column justify-center">
-            <HeroSection />
-            <CategoriesSection />
-            <PopularQuizzes />
-        </main>
-        <Footer />
+                <HeroSection />
+                <CategoriesSection />
+                <PopularQuizzes />
+            </main>
+            <Footer />
         </div>
     )
 }
